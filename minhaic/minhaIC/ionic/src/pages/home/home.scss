@@ -1,0 +1,259 @@
+.fundo {
+	background-color: #80C8F0;
+}
+.nav {
+	background-color: #65A8FF;
+}
+.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width:30vw;
+    height:15vh;
+}
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	font-size: xx-large;
+}
+
+.input {
+	background-color: #B2DEF6;
+    border-radius:20px;
+}
+
+#inputhome1 {
+	background-image: url(../../assets/imgs/contract.png);
+	background-position: 3% 60%; 
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    background-size: 15%;
+    border-radius:20px;  
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -15px;
+    height: 10vh;
+}
+
+#inputhome2 {
+	background-image: url(../../assets/imgs/lock.png);
+	background-position: 3% 60%; 
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    background-size: 15%;
+    border-radius: 20px;
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    height: 10vh;
+}
+
+.btnlogin {
+	background-color: #08438F;
+	width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#campo {
+    color: white;
+    text-align: center;
+    margin-top:20%;
+}
+#cadastrese {
+    color: white;
+    text-align: center;
+	text-decoration: underline;
+    margin-top:10%;
+}
+
+.label {
+    margin-bottom:auto;
+    margin-top: auto;
+}
+/* 
+  ##Device = Iphone 5
+  ##Screen = 320px 
+*/
+@media (min-width: 320px) and (max-width: 320px) {
+
+#inputhome1 {
+    background-image: url(../../assets/imgs/contract.png);
+    background-position: 3% 60%; 
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    background-size: 15%;
+    border-radius:20px;  
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -15px;
+    height: 10vh;
+    line-height: -10vh;
+}
+#inputhome2 {
+    background-image: url(../../assets/imgs/lock.png);
+    background-position: 3% 60%; 
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    background-size: 15%;
+    border-radius: 20px;
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+    margin-bottom:1%;
+}
+#cadastrese {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#btnlogin {
+    background-color: #08438F;
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%; 
+}
+#campo {
+    color: white;
+    text-align: center;
+}
+} 
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width:35vw;
+    height:18vh;
+}
+
+h1 {
+	font-size:600%;
+}
+
+#inputhome1 {
+	background-image: url(../../assets/imgs/user.png);
+	background-position: 3% 60%; 
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    background-size: 10%;
+    width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:8vh;
+}
+
+#inputhome2 {
+    background-image: url(../../assets/imgs/lock.png);
+    background-position: 3% 60%; 
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    background-size: 10%;
+    width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:10vh;
+}
+
+p {
+    font-size: 180%;
+}
+
+#btnlogin {
+    height:8vh;
+    width:60%;
+    font-size: 200%;
+    margin-top: 6%;
+}
+
+.label {
+    padding-left:2%;
+    width: 79%;
+    font-size: x-large;
+}
+
+.texto {
+    font-size: xx-large;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+}
+
+/* Ipad Pro */
+@media (min-width: 1024px) and (max-width: 1024px) {
+
+#inputhome1 {
+    background-image: url(../../assets/imgs/user.png);
+    background-position: 3% 60%; 
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    background-size: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:100px;
+    width:80%;
+
+}
+
+#inputhome2 {
+    background-image: url(../../assets/imgs/lock.png);
+    background-position: 3% 60%; 
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    background-size: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:100px;
+    width: 80%;
+}
+
+p {
+    font-size: 280%;
+}
+
+.btnlogin {
+    margin-top:10%;
+    height:90px;
+    width:70%;
+    font-size: 250%;
+}
+
+h1 {
+    font-size: 700%
+}
+
+.label {
+    width: 79%;
+    font-size: xx-large;
+}
+
+.texto {
+    font-size: 200%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+
+}

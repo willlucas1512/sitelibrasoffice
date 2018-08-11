@@ -1,0 +1,30 @@
+<ion-header>
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</ion-header>
+
+<ion-content padding class="fundo">
+  <img class="logo" src="../../assets/imgs/brain.png">
+
+  <h1> Minha IC </h1>
+  <br>
+  <br>
+    <form #login="ngForm" (ngSubmit)="onSubmit(login)">
+      <ion-item class="input" id="inputhome1">
+        <ion-label floating class="label">DRE ou SIEPE</ion-label>
+        <ion-textarea class="texto" name="numero" type="text" ngModel required #numero="ngModel"></ion-textarea>
+      </ion-item>
+      <br>
+      <br>
+      <br>
+      <ion-item class="input" id="inputhome2">
+        <ion-label floating class="label" id='labelsenha'>Senha</ion-label>
+        <ion-input class="texto" name="senha"type="password" ngModel required #senha="ngModel"></ion-input>
+      </ion-item>
+      <br>
+      <div *ngIf="(numero.invalid && numero.touched) || (senha.invalid && senha.touched)">
+          <p class="campo"> Campo(s) obrigatório(s).</p>
+      </div>
+      <button ion-button round class="btnlogin" id="btnlogin" ion-button type="submit" block [disabled]="login.invalid || passwordError">Login</button> <!--ainda não faz nada pois vão para as páginas do Rafael 06/08/2018 00:37 -->
+    </form>
+<p id="cadastrese" (click)="paraOpcaocadastro()"> Cadastre-se </p>
+</ion-content>
