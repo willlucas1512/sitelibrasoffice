@@ -1,0 +1,169 @@
+ul {
+  margin-right: 5%;
+}
+
+a {
+  color: white;  
+}
+
+.navbartag {
+  font-size: 150%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background-color: #00A500;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+}
+
+footer {
+  background-color: #C4C4C4;
+}
+
+.brand-logo {
+  height: 70%;
+  width: 30%;
+  margin-left: 5%;
+  margin-top:0.25%;
+}
+
+@media only screen and (max-width: 700px) {
+   .brand-logo {
+     margin-left:0;
+     height: 100%;
+     width: 50%;
+   }
+}
+
+.sectionoquee {
+    background-image: url('bgcidade.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulosecaooquee {
+  color:white;
+  font-weight: 600;
+}
+
+.rowespaco {
+    margin-bottom:5%;
+}
+.conteudosectionoquee{
+   height: 40%;
+   margin-left: 5%;
+}
+
+.gifs{
+  height: 110%;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coltexto {
+  width: 30%;
+}
+
+.texto {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+}
+
+.textobranco { 
+  color: white;
+}
+
+.textoespecial {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120%;
+}
+
+.titulosecaodownload {
+  font-weight: 600;
+
+}
+
+.box { 
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);  
+  padding: 20px 40px;
+}
+
+.boxdiferenciada {
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px); 
+  padding: 10px 20px;
+  margin-top: 5%;
+}
+
+.sectiondownload {
+    text-align: center;
+    height: 30%;
+}
+
+.iconbtn {
+  height: 24px;
+  width: 24px;
+}
+
+
+.downloadbtnw {
+  margin-right: 6%;
+}
+.downloadbtnl {
+  margin-left: 6%;
+}
+
+.sectionsugestoes {
+    background-image: url('bgsugestoes.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120%;
+}
+
+.iconhelp{
+   width:  35%;
+   height: 35%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caixa {
+  background-color: #FCFCFC;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1; 
+  padding: 20px 40px;
+}
+
+.rowespecial {
+  margin-bottom:0;
+}
+
+.footerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   height: 10%;
+   width: 20%;
+}
+
+.footercopyright {
+  margin-left: auto;
+  margin-right: auto;
+}

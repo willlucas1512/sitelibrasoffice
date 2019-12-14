@@ -1,0 +1,119 @@
+<nav>
+    <div class="nav-wrapper">
+      <img class="brand-logo" src="assets/logo-libras-office-topo.svg"> 
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="navbartag" href="sass.html">Sobre</a></li>
+        <li><a class="navbartag" href="badges.html">Download</a></li>
+        <li><a class="navbartag" href="collapsible.html">Sugestões</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section class="sectionoquee">
+      <div class="row conteudosectionoquee">
+        <div class="col s12 m6 l6">
+          <div class="row rowespaco"></div>
+            <div class="row">
+             <div class="box">
+              <h2 class="titulosecaooquee">UMA SUITE OFFICE ACESSÍVEL</h2>
+              <p class="texto textobranco"> LIBRASOffice tem por objetivo adaptar a suite LibreOffice para deficientes auditivos. 
+                Propomos o desenvolvimento de uma interface que traduz para LIBRAS - a lingua brasileira de sinais - 
+                os menus e submenus do LibreOffice, exibindo os sinais correspondentes em uma janela localizada 
+                no canto inferior direito da tela.</p>
+             </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l6">
+          <img class="gifs" src="assets/oqueelibrasoffice.gif">
+        </div>
+      </div>
+  </section>
+
+
+  <section class="sectiondownload">
+    <h2 class="titulosecaodownload">DOWNLOAD</h2>
+      <a class="waves-effect waves-light btn-large downloadbtnw black"><i class="material-icons left"><img class="iconbtn" src="assets/windows.svg"></i>Windows</a>
+      <a class="waves-effect waves-light btn-large downloadbtnl black"><i class="material-icons left"><img class="iconbtn" src="assets/linux.svg"></i>Linux</a>
+      <p class="textoespecial">Os pré-requisitos para instalar o LibrasOffice são: ter um sistema operacional 64 bits e instalar o JDK 11.
+       Clique no botão abaixo para acessar o tutorial em vídeo da instalação em libras.</p>
+        <button mat-raised-button (click)="openDialog()">TUTORIAL</button>
+  </section>
+
+
+<section class="sectionsugestoes">
+    <div class="container">
+      <div class="row">
+          <div class="col s12 m6 l6">
+           <div class="boxdiferenciada">
+            <div class="row">
+              <p class="texto textobranco"> Em caso de dúvidas ou sugestões 
+                  clique no botão abaixo para enviar um vídeo em Libras ou um texto em Português 
+                  que nossa equipe responderá em breve.</p>
+            </div>
+            <div class="row">
+                <img class="iconhelp" src="assets/help.svg">
+              </div>
+          </div>
+          </div>
+          <div class="col s12 m6 l6">
+            <img class="gifs" src="assets/sugestoes.gif">
+          </div>
+        </div>
+  <div class="caixa">
+    <form action="#" class="form">
+        <div class="row rowespecial">
+        <div class="input-field col s6 m6 l6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="name" type="text" class="validate">
+            <label for="name">Nome completo</label>
+        </div>
+        <div class="input-field col s6 m6 l6">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+        </div>
+      </div>
+          <div class="row">
+            <div class="input-field col s12 m12 l12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Sugestão</label>
+            </div>
+          </div>
+        <div class="row">
+         <div class="col s12 m12 l12">
+          <div class="file-field input-field">
+              <div class="formbtn black btn">
+                <span>Selecionar arquivo</span>
+                <input type="file" multiple>
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Faça upload de um ou mais arquivos">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <button class="btn formbtn waves-effect waves-light black" type="submit" name="action">ENVIAR</button>
+          </div>
+        </div>
+      </form>
+      </div>
+  </div>
+</section>
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+            <img class="footerimg" src="assets/logo-libras-office-rodape.svg">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+          Laboratório de Informática e Sociedade | 2019 | Todos os direitos reservados
+      </div>
+    </div>
+  </footer>
